@@ -44,13 +44,13 @@ public class Task1 {
 //        }
         //Q4: count the number of digits of the user entered number: when the number is unknown use while loop
         System.out.println("******enter 1 number*****");
-        int n;
+        int o;
         Scanner scanner3= new Scanner(System.in);
-        n= scanner3.nextInt();
+        o= scanner3.nextInt();
         int NoOfDigits= 0;
 
-        while(n>=1){
-            n=n/10;
+        while(o>=1){
+            o=o/10;
             NoOfDigits++;
         }
         System.out.println("Ans: "+ NoOfDigits);
