@@ -22,13 +22,13 @@ public class MakeACalculator {
             System.exit(0);// to exit from here
         }
         else  {
-            System.out.println("Enter two integer values: ");
+            System.out.println("Enter two integer values: ");//will allow to enter two integer values
         }
-
         integerOne = scanner.nextInt();
         integerTwo = scanner.nextInt();
 
-        switch (selection) {
+
+        switch (selection) {// execute function based on selection
             case 1:
                 System.out.println(integerOne + integerTwo);
                 break;
