@@ -74,16 +74,16 @@ public class Task2 {
 //        System.out.println("Smallest value : "+smallest);
 
         //Q6: add values of two matrices
-        int arr1[][]={{10, 20 , 30},{5, 15, 55}};
-        int arr2[][]={{20, 10, 15}, {50, 40, 10}};
+        int arr1[][] = {{10, 20, 30}, {5, 15, 55}};
+        int arr2[][] = {{20, 10, 15}, {50, 40, 10}};
 
-        int arr3[][]= new int[2][3];//introducing third array
+        int arr3[][] = new int[2][3];//introducing third array
         System.out.println("The values of array arr3 are : ");
 
-        for(int i=0; i< arr1.length && i< arr2.length; i++){
-            for(int j=0; j<arr1[0].length && j<arr2[0].length; j++){
+        for (int i = 0; i < arr1.length && i < arr2.length; i++) {
+            for (int j = 0; j < arr1[0].length && j < arr2[0].length; j++) {
 
-                arr3[i][j]= arr1[i][j]+ arr2[i][j];
+                arr3[i][j] = arr1[i][j] + arr2[i][j];
                 System.out.println(arr3[i][j]);
             }
         }
